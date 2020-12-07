@@ -1,0 +1,175 @@
+.otp-form{
+    width: 100%;
+    background-color: #EAEAF5;
+    height: 100vh;
+}
+.otp-img{
+    right: 0px;
+    background: rgba(255,0,54,0.9);
+    width: 100%;
+    height: 70vh;
+    border-radius: 50%;
+    position: fixed;
+    top: -210px;
+    transform: rotate(50deg);
+    z-index:3;
+}
+.otpform-img{
+    width: 100%;
+    background-attachment:fixed;
+    opacity: 0.2;
+    height: 70vh;
+    border-radius: 50%;
+}
+.otp-logo{
+    padding-top:1.5rem;
+}
+.otplogo-name{
+    color:white;
+    font-size:2rem;
+    position:sticky;
+    font-family: "Lobster",cursive;
+    z-index:4;
+    padding-bottom:1rem;
+}
+.otpform-box{
+    position: sticky;
+    z-index: 7;
+}
+.otp-box form{
+	box-sizing: border-box;
+}
+.otp-box {
+    width: 300px;
+    height:410px;
+    background-color:white;
+    border-radius:20px;     
+    box-shadow: 0 15px 25px rgba(0,0,0,0.5);
+    padding: 0px 40px;
+}
+.otpform-head{
+    font-family: 'Fira Sans Condensed', sans-serif;
+   color: #ff0036;
+   font-size:1.8rem;
+}
+.otp-text{
+    text-align: center;
+    color: #a8a7a7;
+    font-size: 0.9rem;
+}
+.otp-flex{
+    display:flex;
+    padding-top:1rem;
+}
+.otSc{
+    margin: 0;
+    margin-right: 16px;
+    padding: 10px 0px;
+    font-size: 1.2rem;
+    text-align: center;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid;
+}
+.otSc:focus{
+    outline: none;
+  }
+.otSc:last-child {
+    margin-right: 0;
+}  
+.notget-code{
+    text-align:center;
+    color: #a8a7a7;
+    font-size: 0.9rem;
+    padding-top:3rem;
+}
+.resend{
+    font-size:0.9rem;
+    color:#ff0036;
+    font-weight:bold;
+}
+.btnotpv {
+	width: 200px;
+	padding-top: 12px;
+	padding-bottom:12px;
+	text-align: center;
+	color: #000;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 15px;
+	margin-top:20px;
+	cursor: pointer;
+    display: inline-block;
+    border-radius:30px;
+  }
+
+  .button-o1 {
+	color: #fff;
+	border: 3px solid #ff0036;
+	background: linear-gradient(30deg, #ff0036 50%, transparent 50%);
+	background-size: 500px;
+	background-repeat: no-repeat;
+	background-position: 0%;
+	transition: background 350ms ease-in-out;
+  }
+  .button-o1:hover {
+	background-position: 100%;
+	color: #ff0036;
+  }
+  .finalotp-img{
+    width: 50%;
+    position: fixed;
+    bottom: -36px;
+    right: -29px;
+  }
+  @media only screen and (min-width :768px)
+{
+.otp-box .otpform-head{
+	text-align: center;
+	font-size: 2.2rem;
+}
+
+.otp-box{
+    width: 350px;
+    height:450px;
+}
+.safe-box form{
+	text-align: center;
+}
+.otp-box form{
+	padding: 0 20px;
+	box-sizing: border-box;
+}
+.btnotpv{
+	padding-top: 15px;
+	padding-bottom:15px;
+	font-size: 18px;
+}
+.finalotp-img{
+    width:20%;
+    position: fixed;
+    bottom: -36px;
+    right: -29px;
+}
+.otpform-img{
+    height:100vh;
+}
+.otp-img{
+    height: 100vh;
+    top: -565px;
+	transform: rotate(10deg);
+	right: 50px;
+}
+.notget-code{
+        font-size: 0.9rem;
+}
+.resend{
+    font-size:1rem;
+}
+.otp-text{
+    font-size: 0.9rem;
+}
+.otplogo-name {
+    font-size: 2.5rem;
+}
+}

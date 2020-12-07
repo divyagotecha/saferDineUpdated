@@ -1,0 +1,51 @@
+.scan-main{
+	width: 100%;
+	background-image:linear-gradient(#FF0036 50%,#FF6787);
+}
+.scan-height{
+	height: 100vh;
+}
+.formlqr-name{
+	color:white;
+    font-size:2rem;
+    font-family: "Lobster",cursive;
+}
+.scan-menu{
+	color:white;
+	font-family: 'Fira Sans Condensed', sans-serif;
+	font-size: 2rem;
+}
+.scan-code{
+	background: black;
+	width:200px;
+	height: 200px;
+}
+.scan-text{
+	color:white;
+	font-size: 1rem;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+.scan-me{
+	color:white;
+	font-weight:530;
+	font-size: 1.6rem;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+.finalqr-img{
+width:65%; 
+position: fixed;
+bottom: -29px;
+right: -54px;
+}
+@media only screen and (min-width :768px)
+{
+.scan-main{
+	background-position:0% 25%; 
+}
+.finalqr-img{
+    width: 30%;
+    position: fixed;
+    bottom: -66px;
+    right: -134px;
+    }
+}
