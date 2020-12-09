@@ -29,7 +29,7 @@ export class OTPverify extends Component {
                             <p className="otp-text mb-0">Enter the 4 digit code sent to your mobile number</p>
                                 <form method="POST">
                                 <div className="otp-flex">
-                                    <input className="otSc" type="number" maxlength="1"/>
+                                    <input className="otSc" type="number" maxLength="1"/>
                                     <input className="otSc" type="number" maxlength="1"/>
                                     <input className="otSc" type="number" maxlength="1"/>
                                     <input className="otSc" type="number" maxlength="1"/>

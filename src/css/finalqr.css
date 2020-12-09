@@ -1,6 +1,6 @@
 .scan-main{
 	width: 100%;
-	background-image:linear-gradient(#FF0036 50%,#FF6787);
+	background:linear-gradient(#FF0036 50%,#FF6787);
 }
 .scan-height{
 	height: 100vh;
