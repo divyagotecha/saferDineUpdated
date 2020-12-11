@@ -23,7 +23,7 @@ export class Finalcategory extends Component {
                         <div className="row mx-0">
                             <div className="col-6 col-md-3 pb-3 cat-spacebox">
                                 <div className="container-img1">
-                                    <img className="cat-img" src="images/beverages/main5.jpg" alt="Notebook"/>
+                                    <img className="cat-img" src="images/beverages/main5.jpg"/>
                                     <div className="content1">
                                         <p className="mb-0">Beverages</p>
                                         </div>
@@ -32,7 +32,7 @@ export class Finalcategory extends Component {
 
                                 <div className="col-6 col-md-3 pb-3 cat-spacebox">
                                 <div className="container-img1">
-                                    <img className="cat-img" src="images/beverages/main5.jpg" alt="Notebook"/>
+                                    <img className="cat-img" src="images/beverages/main5.jpg"/>
                                     <div className="content1">
                                         <p className="mb-0">Beverages</p>
                                         </div>
@@ -41,7 +41,7 @@ export class Finalcategory extends Component {
 
                                 <div className="col-6 col-md-3 pb-3 cat-spacebox">
                                 <div className="container-img1">
-                                    <img className="cat-img" src="images/beverages/main5.jpg" alt="Notebook"/>
+                                    <img className="cat-img" src="images/beverages/main5.jpg" />
                                     <div className="content1">
                                         <p className="mb-0">Beverages</p>
                                         </div>
@@ -50,7 +50,7 @@ export class Finalcategory extends Component {
 
                                 <div className="col-6 col-md-3 pb-3 cat-spacebox">
                                 <div className="container-img1">
-                                    <img className="cat-img" src="images/beverages/main5.jpg" alt="Notebook"/>
+                                    <img className="cat-img my-auto" src="images/beverages/main5.jpg"/>
                                     <div className="content1">
                                         <p className="mb-0">Beverages</p>
                                         </div>
@@ -58,7 +58,7 @@ export class Finalcategory extends Component {
                                 </div>
                                 <div className="col-6 col-md-3 pb-3 cat-spacebox">
                                 <div className="container-img1">
-                                    <img className="cat-img" src="images/beverages/main5.jpg" alt="Notebook"/>
+                                    <img className="cat-img" src="images/beverages/main5.jpg"/>
                                     <div className="content1">
                                         <p className="mb-0">Beverages</p>
                                         </div>
@@ -66,7 +66,7 @@ export class Finalcategory extends Component {
                                 </div>
                                 <div className="col-6 col-md-3 pb-3 cat-spacebox">
                                 <div className="container-img1">
-                                    <img className="cat-img" src="images/beverages/main5.jpg" alt="Notebook"/>
+                                    <img className="cat-img" src="images/beverages/main5.jpg"/>
                                     <div className="content1">
                                         <p className="mb-0">Beverages</p>
                                         </div>
@@ -74,7 +74,7 @@ export class Finalcategory extends Component {
                                 </div>
                                 <div className="col-6 col-md-3 pb-3 cat-spacebox">
                                 <div className="container-img1">
-                                    <img className="cat-img" src="images/beverages/main5.jpg" alt="Notebook"/>
+                                    <img className="cat-img" src="images/beverages/main5.jpg"/>
                                     <div className="content1">
                                         <p className="mb-0">Beverages</p>
                                         </div>
@@ -82,7 +82,7 @@ export class Finalcategory extends Component {
                                 </div>
                                 <div className="col-6 col-md-3 pb-3 cat-spacebox">
                                 <div className="container-img1">
-                                    <img className="cat-img" src="images/beverages/main5.jpg" alt="Notebook"/>
+                                    <img className="cat-img" src="images/beverages/main5.jpg"/>
                                     <div className="content1">
                                         <p className="mb-0">Beverages</p>
                                         </div>

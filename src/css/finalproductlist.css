@@ -1,0 +1,105 @@
+.productlist-category{
+    background-color:#f7f6ff;
+    height: 100%;
+    width: 100%;
+}
+.productlist-widthsome{
+    width: 90%;
+}
+.catlist-bor{
+	border-top: solid 1px #a8a7a7;
+    width: 100%;
+}
+.productlist-head{
+    font-family: 'Roboto', sans-serif;
+	font-size: 1.5rem;
+    text-transform: capitalize;
+    font-weight: 600;
+    text-align: center;
+    color:#3d3b3b;
+    /* background:-webkit-linear-gradient(#ff0036 , #ff6787);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+}
+.productlist-card{
+    box-shadow: 0 10px 15px rgba(0,0,0,0.2);
+}
+.productlist-spacebox{
+    padding-left:6px;
+    padding-right:6px;
+}
+.productlistcard-body{
+    padding: 0.5rem;
+}
+.productlist-name{
+    font-family: 'Roboto', sans-serif;
+    color:black;
+    font-size: 1rem;
+    text-transform: capitalize;
+}
+:focus {
+    outline: none !important;
+}
+.productlist-price{
+    font-family: 'Roboto', sans-serif;
+    color:black;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.card{
+    border: none!important;
+    border-radius:0px;
+    
+}
+.productlist-add{
+    font-family: 'Roboto', sans-serif;
+	border-radius: 7px;
+	font-size: 1rem;
+	font-weight:bold;
+	background:linear-gradient(#FF0036,#FF6787 80%);
+	color:white;
+	padding: 0.1rem 0.7rem;
+	outline:none;
+    border:none;
+    float: right;
+    box-shadow: 0 10px 15px rgba(0,0,0,0.2);
+    /* box-shadow: 0px 0px 10px 4px rgba(0,0,0,0.3); */
+}
+    
+.pureveg-icon{
+    width: 10%;
+    position: absolute;
+    left: 8px;
+    top:8px;
+}
+.productlist-card:hover .productlistcard-body {
+    background:linear-gradient(#FF0036,#FF6787 100%);
+    color: white;
+}
+.productlist-card:hover .productlist-name{
+    color:white;
+}
+.productlist-card:hover .productlist-price{
+    color:white;
+}
+.productlist-card:hover .productlist-add{
+    color:#FF0036;
+    background: white;
+}
+.prductlist-icon{
+    /* width:8%; */
+    padding-bottom:1rem;
+}
+.card-img, .card-img-top {
+    border-top-left-radius:0;
+    border-top-right-radius:0;
+}
+@media only screen and (min-width :768px)
+{
+    .productlist-widthsome{
+        width: 70%;
+    } 
+    .pureveg-icon{
+        width: 8%;
+    }  
+}
