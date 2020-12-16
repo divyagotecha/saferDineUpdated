@@ -1,0 +1,108 @@
+.singleproduct{
+    /* background-color:#f7f6ff; */
+    background-color: white;
+    height:100vh;
+    width:100%;
+}
+.singleproductimg{
+    width: 100%;
+}
+.singleproductwidth{
+    width:90%;
+}
+.singleproduct-name{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.singleproduct-vegnonveg{
+    width:4.7%;
+}
+.singleproduct-price{
+    color:#FF0036;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.singleproduct-star{
+    color: gold;
+}
+.singleproductdetail-clock{
+    color:#0AC92B;;
+    font-size: 1.1rem;
+    padding-right:0.3rem;
+}
+.singleproduct-calories{
+    color: #f53803;
+}
+.singleproduct-fire{
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.singleproduct-staricon{
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.singleproduct-clock{
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.singleproduct-details{
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.singleproduct-descpdetails{
+    color: grey;
+    font-size: 0.9rem;
+    font-family: 'Poppins', sans-serif;
+}
+.singleproduct-detailsincer{
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.singleproductswipe-img{
+    width:20%;
+    background-color:#E0E0E0;
+    padding:0.5rem;
+    /* border:solid 1px  #f53803; */
+}
+.singleproduct-swipe{
+    overflow:auto;
+    white-space:nowrap;
+}
+/* .singleproducts-cartparent{
+    position: relative;
+} */
+.singleproducts-cart{
+    width: 100%;
+    bottom: 0;
+}
+.singleproductscart-btn{
+    padding:0.79rem;
+    width: 100%;
+    border:none;
+    background:linear-gradient(#FF0036 40%,#FF6787);
+    color:white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+@media only screen and (min-width :768px)
+{
+    .singleproductwidth{
+        width:100%;
+    }
+    .singleproductwidthwin{
+        width:60%;
+    }
+
+}

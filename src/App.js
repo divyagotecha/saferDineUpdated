@@ -16,6 +16,7 @@ import OTPverify from'./components/OTPverify';
 import Finalnavbar from'./components/Finalnavbar';
 import Finalcategory from'./components/Finalcategory';
 import FinalProductsLists from'./components/FinalProductsLists';
+import SingleProductDescription from'./components/SingleProductDescription';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
     <Route exact path="/finalnav" component ={Finalnavbar}/>
     <Route exact path="/finalcat" component ={Finalcategory}/>
     <Route exact path="/finalProductsLists" component ={FinalProductsLists}/>
+    <Route exact path="/singleproductdesc" component ={SingleProductDescription}/>
     </Router>
 
   );

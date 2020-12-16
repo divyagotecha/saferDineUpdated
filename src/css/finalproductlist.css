@@ -72,6 +72,9 @@
     left: 8px;
     top:8px;
 }
+/* .productlist-card:hover{
+    box-shadow: 0 2px 6px rgb(0 0 0);
+} */
 .productlist-card:hover .productlistcard-body {
     background:linear-gradient(#FF0036,#FF6787 100%);
     color: white;
