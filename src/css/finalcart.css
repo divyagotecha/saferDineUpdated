@@ -1,0 +1,136 @@
+.finalcart{
+    background: white;
+    width: 100%;
+    height: 100%;
+}
+.finalcart-mycart{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4rem;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.finalcart-widthsome{
+    width: 90%;
+}
+.finalcart-border{
+    border-top: solid 1px #a8a7a7;
+    width: 100%;
+}
+.finalcart-img{
+    width:90%;
+    border-radius:10px;
+}
+.finalcart-productname{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    text-transform: capitalize;
+}
+.finalcart-btn{
+display:flex;
+}
+.finalcart-plusbtn{
+    background-color:#D0D3D4;
+    line-height:1.5;
+    width:25px;
+    height: 25px;
+    color:white;
+    cursor: pointer;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:5px;
+    font-size: 0.6rem;
+}
+.finalcart-quantity{
+    width: 25px;
+    height: 25px;
+    margin:0px 4px;
+    border:none;
+    text-align: center;
+    font-weight: bold;
+}
+.finalcart-plusbtn:hover{
+    background:#FF0036;
+    color:white;
+}
+.finalcart-price{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+}
+/* .finalcart-pay{
+    position: fixed;
+    bottom:4rem;
+    right: 1rem;
+}
+.finalcartpay-btn{
+    border:none;
+    padding:0.3rem 1.6rem;
+    color:white;
+    background: linear-gradient(#FF0036 40%,#FF6787);
+    font-size: 1.1rem;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    color:white;
+} */
+.finalcarttotal-background{
+    /* border-top: solid 1px #a8a7a7; */
+    background: #D0D3D4;
+    position: fixed;
+    width: 100%;
+    bottom: 2.9rem;
+}
+.finalcart-total{
+    color:#FF0036;
+    font-weight: bold;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+.finalcart-totalamount{
+    color:#FF0036;
+    font-weight: bold;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    text-align: right;
+}
+.finalcart-empty{
+    padding-top:2rem;
+}
+.finalcart-order{
+     background: linear-gradient(#FF0036 40%,#FF6787);
+     color:white;
+     padding:0.7rem 0rem;
+     position:fixed;
+     width: 100%;
+     bottom: 0;
+     text-align: center;
+     text-transform:uppercase;
+     font-weight: bold;
+     font-family: 'Roboto', sans-serif;
+}
+@media only screen and (min-width :768px)
+{
+    .finalcart-widthsomedesktop{
+        width: 60%;
+    }
+    .finalcarttotal-background{
+        width:60%;
+        bottom: 2.9rem;
+    }
+    .finalcart-order{
+        width:60%;
+    }
+    .finalcart-productname{
+        font-size: 1.1rem;
+    }
+    .finalcart-price{
+        font-size: 1.1rem;
+    }
+    .finalcart-img{
+        width:50%;
+        border-radius:10px;
+    }
+
+}
