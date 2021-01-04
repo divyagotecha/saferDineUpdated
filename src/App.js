@@ -18,6 +18,7 @@ import Finalcategory from'./components/Finalcategory';
 import FinalProductsLists from'./components/FinalProductsLists';
 import SingleProductDescription from'./components/SingleProductDescription';
 import FinalCart from'./components/FinalCart';
+import Finalorder from'./components/Finalorder';
 
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
     <Route exact path="/finalProductsLists" component ={FinalProductsLists}/>
     <Route exact path="/singleproductdesc" component ={SingleProductDescription}/>
     <Route exact path="/finalcart" component ={FinalCart}/>
+    <Route exact path="/finalorder" component ={Finalorder}/>
     </Router>
 
   );

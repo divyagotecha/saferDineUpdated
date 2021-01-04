@@ -1,0 +1,106 @@
+.finalorder{
+    background: white;
+    width: 100%;
+    height: 100%;
+}
+.finalorder-widthsome{
+    width: 90%;
+}
+.finalorder-myorder{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4rem;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.finalorder-border{
+    border-top: solid 1px #a8a7a7;
+    width: 100%;
+}
+.finalorder-img{
+    width:90%;
+    border-radius:10px;
+}
+.finalorder-productname{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    text-transform: capitalize;
+}
+.finalorder-btn{
+    display:flex;
+}
+.finalorder-plusbtn{
+    background-color:#D0D3D4;
+    line-height:1.5;
+    width:25px;
+    height: 25px;
+    color:white;
+    cursor: pointer;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:5px;
+    font-size: 0.6rem;
+}
+.finalorder-quantity{
+    width: 25px;
+    height: 25px;
+    margin:0px 4px;
+    border:none;
+    text-align: center;
+    font-weight: bold;
+}
+.finalorder-plusbtn:hover{
+    background:#FF0036;
+    color:white;
+}
+.finalorder-price{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.finalorder-addmore{
+    position:fixed;
+    bottom: 2.9rem;
+    width:100%;
+}
+.finalorder-addmorebtn{
+    background: #D0D3D4;
+    color:#FF0036;
+    font-weight: bold;
+    font-size: 1.1rem;
+    font-family: 'Roboto', sans-serif;
+    text-transform:capitalize;
+    text-align:center;
+    padding:0.5rem;
+}
+.finalorder-checkout{
+    position:fixed;
+    bottom:0;
+    width:100%;
+}
+.finalorder-checkoutbtn{
+    background:#FF0036;
+    color:white;
+    font-weight: bold;
+    font-size: 1.1rem;
+    font-family: 'Roboto', sans-serif;
+    text-transform:uppercase;
+    text-align:center;
+    padding:0.5rem;
+}
+@media only screen and (min-width :768px)
+{
+.finalorder-widthsome{
+    width: 100%;
+}
+.finalorder-widthsomedesktop{
+    width: 60%;
+}
+.finalorder-addmore{
+    width: 60%;
+}
+.finalorder-checkout{
+    width:60%;
+}
+}

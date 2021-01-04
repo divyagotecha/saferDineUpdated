@@ -112,6 +112,9 @@ display:flex;
 }
 @media only screen and (min-width :768px)
 {
+    .finalcart-widthsome{
+        width: 100%;
+    }
     .finalcart-widthsomedesktop{
         width: 60%;
     }
