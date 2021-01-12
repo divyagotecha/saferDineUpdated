@@ -25,9 +25,14 @@
     box-shadow: 0 10px 15px rgba(0,0,0,0.2);
 }
 .productlist-spacebox{
-    padding-left:6px;
-    padding-right:6px;
+    padding-right:8px;
+    padding-bottom:16px;
 }
+.productlist-spacebox1{
+    padding-left:8px;
+    padding-bottom:16px;
+}
+
 .productlistcard-body{
     padding: 0.5rem;
 }

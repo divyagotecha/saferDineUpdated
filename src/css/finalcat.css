@@ -13,12 +13,6 @@
     box-shadow:none !important;
     border-color: #a8a7a7;
 }
-.form-control {
-    padding: .375rem 1rem;
-    color:  #a8a7a7;
-    border: 1px solid #a8a7a7;
-    height: calc(1.8em + .75rem + 2px);
-}
 .search{
     background:white;
     border-radius: 25px;
@@ -71,8 +65,9 @@
 	text-transform: capitalize;
   }
   .cat-spacebox{
-      padding-left:8px;
-      padding-right:8px;
+      padding-left:10px;
+      padding-right:10px;
+      padding-bottom: 20px;
      
   }
 @media only screen and (min-width :768px)

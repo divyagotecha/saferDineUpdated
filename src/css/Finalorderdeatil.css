@@ -1,0 +1,33 @@
+.finalorderdetail{
+    background: white;
+    width: 100%;
+    height: 100%;
+}
+.finalorderdetail-widthsome{
+    width: 90%;
+}
+.finalorderdetail-heading{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4rem;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.finalorderdetail-border{
+    border-top: solid 1px #a8a7a7;
+    width: 100%;
+}
+.finalorderdetail-img{
+    width:100%;
+    border-radius:10px;
+}
+.finalorderdeatil-productname{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    text-transform: capitalize;
+}
+.finalorderdeatil-price{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+}

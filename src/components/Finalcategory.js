@@ -20,8 +20,8 @@ export class Finalcategory extends Component {
                         <h5 className="text-center mx-auto cat-cuisines">Cuisines</h5>
                         <div className="py-2 cuisines-bor"></div>
                     
-                        <div className="row mx-0">
-                            <div className="col-6 col-md-3 pb-3 cat-spacebox">
+                        <div className="row">
+                            <div className="col-6 col-md-3  cat-spacebox">
                                 <div className="container-img1">
                                     <img className="cat-img" src="images/beverages/main5.jpg"/>
                                     <div className="content1">
@@ -30,7 +30,7 @@ export class Finalcategory extends Component {
                                     </div>
                                 </div>
 
-                                <div className="col-6 col-md-3 pb-3 cat-spacebox">
+                                <div className="col-6 col-md-3  cat-spacebox">
                                 <div className="container-img1">
                                     <img className="cat-img" src="images/beverages/main5.jpg"/>
                                     <div className="content1">
@@ -39,7 +39,7 @@ export class Finalcategory extends Component {
                                     </div>
                                 </div>
 
-                                <div className="col-6 col-md-3 pb-3 cat-spacebox">
+                                <div className="col-6 col-md-3 cat-spacebox">
                                 <div className="container-img1">
                                     <img className="cat-img" src="images/beverages/main5.jpg" />
                                     <div className="content1">
@@ -48,7 +48,7 @@ export class Finalcategory extends Component {
                                     </div>
                                 </div>
 
-                                <div className="col-6 col-md-3 pb-3 cat-spacebox">
+                                <div className="col-6 col-md-3  cat-spacebox">
                                 <div className="container-img1">
                                     <img className="cat-img my-auto" src="images/beverages/main5.jpg"/>
                                     <div className="content1">
@@ -56,7 +56,7 @@ export class Finalcategory extends Component {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-6 col-md-3 pb-3 cat-spacebox">
+                                <div className="col-6 col-md-3  cat-spacebox">
                                 <div className="container-img1">
                                     <img className="cat-img" src="images/beverages/main5.jpg"/>
                                     <div className="content1">
@@ -64,7 +64,7 @@ export class Finalcategory extends Component {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-6 col-md-3 pb-3 cat-spacebox">
+                                <div className="col-6 col-md-3  cat-spacebox">
                                 <div className="container-img1">
                                     <img className="cat-img" src="images/beverages/main5.jpg"/>
                                     <div className="content1">
@@ -72,7 +72,7 @@ export class Finalcategory extends Component {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-6 col-md-3 pb-3 cat-spacebox">
+                                <div className="col-6 col-md-3 cat-spacebox">
                                 <div className="container-img1">
                                     <img className="cat-img" src="images/beverages/main5.jpg"/>
                                     <div className="content1">
@@ -80,7 +80,7 @@ export class Finalcategory extends Component {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-6 col-md-3 pb-3 cat-spacebox">
+                                <div className="col-6 col-md-3  cat-spacebox">
                                 <div className="container-img1">
                                     <img className="cat-img" src="images/beverages/main5.jpg"/>
                                     <div className="content1">

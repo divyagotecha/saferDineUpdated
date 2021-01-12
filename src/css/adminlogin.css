@@ -1,30 +1,30 @@
-.final-form{
+.adminlogin-form{
     width: 100%;
     background-color: #EAEAF5;
     height: 100vh;
 }
-.safeform-img{
+.adminlogin-img{
     width: 100%;
     background-attachment:fixed;
     opacity: 0.2;
     height: 70vh;
-    border-radius: 50% !important;
+    border-radius: 50%;
 }
-.top-img{
+.adminlogintop-img{
     right: 0px;
     background: rgba(255,0,54,0.9);
     width: 100%;
     height: 70vh;
-    border-radius: 50% !important;
+    border-radius: 50%;
     position: fixed;
     top: -210px;
     transform: rotate(50deg);
     z-index:3;
 }
-.safe-logo{
+.adminloginsafe-logo{
     padding-top:1.5rem;
 }
-.formlogo-name{
+.adminloginlogo-name{
     color:white;
     font-size:2rem;
     position:sticky;
@@ -32,33 +32,33 @@
 	z-index:4;
 	padding-bottom:1rem;
 }
-.safeform-box{
+.adminlogin-box{
     position: sticky;
     z-index: 7;
 }
-.safe-box{
+.adminlogin-box2{
     width: 300px;
     height:410px;
     background-color:white;
     border-radius:20px;     
     box-shadow: 0 15px 25px rgba(0,0,0,0.2);
 }
-.cform-head{
+.adminlogin-heading{
     font-family: 'Fira Sans Condensed', sans-serif;
     text-transform: capitalize;
     color: #ff0036;
 	font-size:1.8rem;
 }
-.safe-box form{
+.adminlogin-box2 form{
 	text-align: left;
     box-sizing: border-box;
 }
-form .text-field{
+form .adminlogintext-field{
 	position: relative;
 	border-bottom:2px solid  #a8a7a7;
 	margin:30px 0; 
 }
-.text-field input{
+.adminlogintext-field input{
 	width:100%;
 	padding: 0 15px;
 	height: 40px;
@@ -68,7 +68,7 @@ form .text-field{
 	background: none;
 	outline: none;
 }
-.text-field label{
+.adminlogintext-field label{
 	position: absolute;
 	top: 50%;
 	left:5px;
@@ -79,7 +79,7 @@ form .text-field{
 	transition: .5s;
 	letter-spacing:0.7px;
 }
-.text-field span::before{
+.adminlogintext-field span::before{
 	content: '';
 	position: absolute;
 	top: 40px;
@@ -89,18 +89,18 @@ form .text-field{
 	background:#ff0036;
 	transition: .7s;
 }
-.text-field input:focus ~ label,
-.text-field input:valid ~ label{
+.adminlogintext-field input:focus ~ label,
+.adminlogintext-field input:valid ~ label{
 	top:-5px;
 	color:#ff0036;
 }
 
-.text-field input:focus ~ span:before,
-.text-field input:valid ~ span:before 
+.adminlogintext-field input:focus ~ span:before,
+.adminlogintext-field input:valid ~ span:before 
 {
 	width: 100%;
 }
-.btnotp {
+.btnadminlogin{
 	width: 200px;
 	padding-top: 12px;
 	padding-bottom:12px;
@@ -115,7 +115,7 @@ form .text-field{
     border-radius:30px;
   }
 
-  .button-o {
+  .button-adminloginsubmit{
 	color: #fff;
 	border: 3px solid #ff0036;
 	background: linear-gradient(30deg, #ff0036 50%, transparent 50%);
@@ -124,11 +124,11 @@ form .text-field{
 	background-position: 0%;
 	transition: background 350ms ease-in-out;
   }
-  .button-o:hover {
+  .button-adminloginsubmit:hover {
 	background-position: 100%;
 	color: #ff0036;
   }
-  .finalformlast-img{
+  .adminloginlast-img{
     width: 50%;
     position: fixed;
     bottom: -36px;
@@ -137,47 +137,38 @@ form .text-field{
 
 @media only screen and (min-width :768px)
 {
-	.cform-head{
-		font-size: 1.8rem !important;
-	}
-.safe-box{
+.safe-box .cform-head{
+	text-align: center;
+	font-size: 2.2rem;
+}
+
+.adminlogin-box2{
     width: 350px;
     height:450px;
 }
-.safe-box form{
+.adminlogin-box2 form{
 	text-align: center;
 }
-.safe-box form{
+.adminlogin-box2 form{
 	padding: 0 20px;
 	box-sizing: border-box;
 }
-.cform-one{
-	padding-left:0px;
-	padding-right:0px;
-}
-.btnotp{
-	padding-top: 15px;
-	padding-bottom:15px;
-}
 .text-field label{
-	font-size: 16px !;
+	font-size: 18px;
 }
-.finalformlast-img{
+.adminloginlast-img{
     width:20%;
     position: fixed;
     bottom: -36px;
     right: -29px;
 }
-.safeform-img{
+.adminlogin-img{
     height:100vh;
 }
-.top-img{
+.adminlogintop-img{
     height: 100vh;
     top: -565px;
 	transform: rotate(10deg);
-	right: 80px;
+	right: 50px;
 }
-/* .safe-logo{
-    padding-top:rem;
-} */
 }

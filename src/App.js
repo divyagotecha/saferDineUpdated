@@ -19,6 +19,8 @@ import FinalProductsLists from'./components/FinalProductsLists';
 import SingleProductDescription from'./components/SingleProductDescription';
 import FinalCart from'./components/FinalCart';
 import Finalorder from'./components/Finalorder';
+import FinalOrderDetail from'./components/FinalOrderDetail';
+import AdminLogin from'./components/AdminLogin';
 
 
 function App() {
@@ -34,6 +36,8 @@ function App() {
     <Route exact path="/singleproductdesc" component ={SingleProductDescription}/>
     <Route exact path="/finalcart" component ={FinalCart}/>
     <Route exact path="/finalorder" component ={Finalorder}/>
+    <Route exact path="/finalorderdetail" component ={FinalOrderDetail}/>
+    <Route exact path="/adminlogin" component ={AdminLogin}/>
     </Router>
 
   );

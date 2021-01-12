@@ -20,8 +20,8 @@ export class FinalProductsLists extends Component {
                             <h5 className="text-center mb-0 mx-auto productlist-head"><span><img className="prductlist-icon" src={"images/flaticon/beverage2.png"}/></span>Beverages</h5>
                             <div className="py-2 catlist-bor"></div>
 
-                            <div className="row mx-0">
-                                <div className="col-6 col-md-3 pb-3 productlist-spacebox">
+                            <div className="row">
+                                <div className="col-6 col-md-3  productlist-spacebox">
                                     <div className="card productlist-card">
                                     <img className="pureveg-icon" src={"images/pureveg.png"}/>
                                     <img className="card-img-top catlistcard-img" src="images/beverages/americano.jpg"/>
@@ -34,7 +34,7 @@ export class FinalProductsLists extends Component {
                                     </div>
                                 </div>
 
-                                <div className="col-6 col-md-3 pb-3 productlist-spacebox">
+                                <div className="col-6 col-md-3  productlist-spacebox1">
                                     <div className="card productlist-card">
                                     <img className="pureveg-icon" src={"images/pureveg.png"}/>
                                     <img className="card-img-top catlistcard-img" src="images/beverages/hot-coffee.jpg"/>
@@ -59,7 +59,7 @@ export class FinalProductsLists extends Component {
                                     </div>
                                 </div>
 
-                                <div className="col-6 col-md-3 pb-3 productlist-spacebox">
+                                <div className="col-6 col-md-3 pb-3 productlist-spacebox1">
                                     <div className="card productlist-card">
                                     <img className="pureveg-icon" src={"images/pureveg.png"}/>
                                     <img className="card-img-top catlistcard-img" src="images/beverages/Chocolate-shake.jpg"/>

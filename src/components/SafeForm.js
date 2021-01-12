@@ -55,7 +55,7 @@ export class SafeForm extends Component {
                     </div>
 
                     <div className="fianlform-rel">
-				        <img className="finalform-img" src={"images/pan.png"}/>
+				        <img className="finalformlast-img" src={"images/pan.png"}/>
                     </div>
 
                     </div>
